@@ -1,0 +1,9861 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b419facb-c9cc-4812-898e-b74def812f3d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Audio:AudioJack4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at -2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack4(PJ-320A)"
+				(at -2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PJ-320A_Library:PJ-320A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 4 Poles (TRRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones TRRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack4_0_1"
+				(rectangle
+					(start -6.35 -5.08)
+					(end -7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -5.08) (xy -5.08 -5.715) (xy -4.445 -5.08) (xy -4.445 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack4_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyLibrary:5way-navigation-switch"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5way-navigation-switch"
+				(at 0 12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5way-navigation-switch_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 8.89 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5way-navigation-switch_1_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -9.0801 -5.0681)
+					(radius 0.428)
+					(stroke
+						(width 0.0508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8.89 5.08)
+					(radius 0.428)
+					(stroke
+						(width 0.0508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.428)
+					(stroke
+						(width 0.0508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 5.08)
+					(radius 0.428)
+					(stroke
+						(width 0.0508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 0)
+					(radius 0.428)
+					(stroke
+						(width 0.0508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 -5.08)
+					(radius 0.428)
+					(stroke
+						(width 0.0508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 3.556)
+					(name "up"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 11.176)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 3.556)
+					(name "down"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 3.556)
+					(name "left"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 3.556)
+					(name "push"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 3.556)
+					(name "right"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RP2040-zero:RP2040_Zero_Up_Mount"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RP2040_Zero_Up_Mount_0_1"
+				(rectangle
+					(start -15.24 20.32)
+					(end 15.24 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RP2040_Zero_Up_Mount_1_1"
+				(pin input line
+					(at -17.78 17.78 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 13.97 0)
+					(length 2.54)
+					(name "GNB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GNB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 10.16 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 6.35 0)
+					(length 2.54)
+					(name "GP29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "GP28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -1.27 0)
+					(length 2.54)
+					(name "GP27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "GP26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -8.89 0)
+					(length 2.54)
+					(name "GP15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -12.7 0)
+					(length 2.54)
+					(name "GP14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -21.59 90)
+					(length 2.54)
+					(name "GP13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -21.59 90)
+					(length 2.54)
+					(name "GP12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -21.59 90)
+					(length 2.54)
+					(name "GP11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -21.59 90)
+					(length 2.54)
+					(name "GP10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -21.59 90)
+					(length 2.54)
+					(name "GP9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 17.78 180)
+					(length 2.54)
+					(name "GP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 13.97 180)
+					(length 2.54)
+					(name "GP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 10.16 180)
+					(length 2.54)
+					(name "GP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 6.35 180)
+					(length 2.54)
+					(name "GP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "GP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -1.27 180)
+					(length 2.54)
+					(name "GP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "GP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -8.89 180)
+					(length 2.54)
+					(name "GP7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "GP8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 161.29 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03b9fc67-6ecc-40f2-86c5-eb9b1fd7f85c")
+	)
+	(junction
+		(at 118.11 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04c7f07a-144c-4008-b668-5f41fdf2e855")
+	)
+	(junction
+		(at 157.48 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07ca7f1d-3710-4588-bb50-23c20eeacb84")
+	)
+	(junction
+		(at 104.14 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09a462c4-da7d-4267-a791-f69901894165")
+	)
+	(junction
+		(at 53.34 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12cd5723-5f4f-4cf8-bd20-84518add1bdd")
+	)
+	(junction
+		(at 118.11 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16f90872-14ee-4e3d-a13b-258735d673ee")
+	)
+	(junction
+		(at 118.11 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2328e02f-7f8d-4665-be67-e6e241803234")
+	)
+	(junction
+		(at 83.82 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "248c1ab9-6ffb-4eab-b303-3ab8ecb29e37")
+	)
+	(junction
+		(at 53.34 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26ff3a00-3a5e-44a8-b082-2f8e725d5e56")
+	)
+	(junction
+		(at 124.46 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27f1a3a3-a92c-4dd6-8c94-5188c0bd46a0")
+	)
+	(junction
+		(at 161.29 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "284812b1-d54a-4aff-a234-c5aaa2d4a976")
+	)
+	(junction
+		(at 118.11 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d669e89-f2c1-43aa-b567-909fc5446cf3")
+	)
+	(junction
+		(at 139.7 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30b8c813-fbb0-4e98-adac-a8ba2c6e9ed8")
+	)
+	(junction
+		(at 142.24 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d688797-49b3-4ddf-b25e-3d8e29f0cf24")
+	)
+	(junction
+		(at 273.05 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fd0495f-c92b-4dc8-a2b3-1767a9297586")
+	)
+	(junction
+		(at 77.47 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45807757-a12f-440a-91ee-7f4ec11eff6d")
+	)
+	(junction
+		(at 83.82 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4de0b140-55bd-4758-9c62-ada908c0a36d")
+	)
+	(junction
+		(at 100.33 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "538a28d7-d8e5-4e68-ba02-bc3bb979b185")
+	)
+	(junction
+		(at 100.33 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54124ca8-7cf1-4cd8-b7b5-950ff06c0995")
+	)
+	(junction
+		(at 157.48 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54693740-d6ba-4c96-b2b0-d841f7d00f9b")
+	)
+	(junction
+		(at 124.46 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f077a32-9902-47ca-995b-c05d2b8380f4")
+	)
+	(junction
+		(at 273.05 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6430692e-a70f-4e71-b6da-1f825c8fe6a0")
+	)
+	(junction
+		(at 77.47 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c61c607-944d-417f-8a64-73ed365341bf")
+	)
+	(junction
+		(at 100.33 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6df1de34-a89d-4413-9144-7defe26bef45")
+	)
+	(junction
+		(at 104.14 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7546a599-59b8-4bbd-8a6d-f95c2ba92270")
+	)
+	(junction
+		(at 124.46 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a054015-90d7-4403-8c97-d6a1272230b3")
+	)
+	(junction
+		(at 100.33 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "806a4128-93f6-4d6c-845a-de76e9463247")
+	)
+	(junction
+		(at 53.34 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "811ae7a2-7953-4fa5-915a-1f34d4fc1e56")
+	)
+	(junction
+		(at 124.46 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "832cfb65-dea4-4610-9fe6-c74e3bdc4af3")
+	)
+	(junction
+		(at 142.24 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8339365c-9095-4758-897e-c691af7c460e")
+	)
+	(junction
+		(at 161.29 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87bacdb9-0666-4e7d-9d6a-288983cbe405")
+	)
+	(junction
+		(at 77.47 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "880aa56e-bf52-4421-b0e4-f75b2c2e50b5")
+	)
+	(junction
+		(at 161.29 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b0bb767-3a08-46d2-a367-15e37bfb83ea")
+	)
+	(junction
+		(at 142.24 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c19098e-af99-490c-93df-b44c5332e59e")
+	)
+	(junction
+		(at 139.7 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ebdbaee-db46-4d51-99bc-abc4221c9dc7")
+	)
+	(junction
+		(at 161.29 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aaab58e-495f-4de4-8600-09d6fe28fe69")
+	)
+	(junction
+		(at 83.82 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5265bb0-93c6-44ba-91b6-ede71f8aed59")
+	)
+	(junction
+		(at 53.34 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a84f70cf-e374-48b5-b4a8-ad38f2e8ca3f")
+	)
+	(junction
+		(at 142.24 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab881cbc-2d1d-464e-96b0-60ab9d722e6f")
+	)
+	(junction
+		(at 77.47 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b220dffc-04d4-490e-b12d-98f5f7659ef3")
+	)
+	(junction
+		(at 139.7 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4083a5a-1bf1-41d9-b0a3-f65e98777346")
+	)
+	(junction
+		(at 124.46 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5e6e75b-a872-4dc3-8947-e13a2fc90b34")
+	)
+	(junction
+		(at 142.24 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfe677dd-5f7c-4f50-8da2-18d711fc7ad0")
+	)
+	(junction
+		(at 83.82 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d15477eb-eeb2-4b68-9383-86f8d469d5e9")
+	)
+	(junction
+		(at 83.82 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3ae8a3e-6385-437a-a5cc-9448970b3db4")
+	)
+	(junction
+		(at 157.48 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d66beff8-33fb-4474-9351-7a17f32c2f49")
+	)
+	(junction
+		(at 139.7 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8359d40-d41c-4700-bf41-8bb9ad9e7d26")
+	)
+	(junction
+		(at 104.14 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df56e571-a999-4745-9859-7988f07adec6")
+	)
+	(junction
+		(at 104.14 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4103561-d0d1-4f6f-b700-f0f75d9bc221")
+	)
+	(junction
+		(at 157.48 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f30c7aa9-dc34-4527-99ff-6702450865b9")
+	)
+	(junction
+		(at 104.14 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fae6dd4e-9209-49ab-86b4-7fb6b3b108f4")
+	)
+	(no_connect
+		(at 219.71 132.08)
+		(uuid "66e63adb-8318-4d8e-a7ce-bbf57e744f43")
+	)
+	(no_connect
+		(at 171.45 176.53)
+		(uuid "a9e4e2c7-b71e-4908-8d0d-2ba8376c8a7f")
+	)
+	(wire
+		(pts
+			(xy 264.16 72.39) (xy 264.16 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002fd1c0-6598-49e9-b94e-0673c97ba924")
+	)
+	(wire
+		(pts
+			(xy 124.46 127) (xy 142.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f9c88e-ff70-4a5b-8ac5-c24bd4b4481c")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 118.11 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02267979-dcec-40c3-8cbb-db67fc93f269")
+	)
+	(wire
+		(pts
+			(xy 104.14 107.95) (xy 104.14 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b37742-693a-411c-ae4e-200fdfe606fa")
+	)
+	(wire
+		(pts
+			(xy 142.24 127) (xy 161.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03567f14-fcb9-44e6-b67e-fd6ff70e8d68")
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62) (xy 114.3 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039ad4de-1c36-4032-ba01-1adac9f647d7")
+	)
+	(wire
+		(pts
+			(xy 273.05 127) (xy 273.05 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a9d94e-92e6-436e-a183-7c5480508d9b")
+	)
+	(wire
+		(pts
+			(xy 157.48 64.77) (xy 157.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05549233-5bf1-420d-87e3-c0003fe6bb79")
+	)
+	(wire
+		(pts
+			(xy 250.19 -1.27) (xy 250.19 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05981942-840e-4936-91d4-4ac0dac45ac2")
+	)
+	(wire
+		(pts
+			(xy 114.3 115.57) (xy 114.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d6385b-f8b0-4d96-9e57-04803727da67")
+	)
+	(wire
+		(pts
+			(xy 190.5 1.27) (xy 190.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f53032-6c75-4c20-84f9-f309374d6518")
+	)
+	(wire
+		(pts
+			(xy 60.96 69.85) (xy 60.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0713753e-a13b-45f1-8bbf-4c62d2e8a2a6")
+	)
+	(wire
+		(pts
+			(xy 254 11.43) (xy 241.3 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07326b09-2ccf-40c9-9115-dffb066eeae0")
+	)
+	(wire
+		(pts
+			(xy 198.12 34.29) (xy 198.12 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073e0933-04b3-4b21-b894-399245c82fcb")
+	)
+	(wire
+		(pts
+			(xy 104.14 107.95) (xy 83.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ffb4e0-91f1-4caf-bfef-98752ba836a5")
+	)
+	(wire
+		(pts
+			(xy 100.33 120.65) (xy 105.41 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0993ed53-9a70-4847-b9dd-395ba910314d")
+	)
+	(wire
+		(pts
+			(xy 124.46 69.85) (xy 104.14 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7638d6-4ae2-439e-beae-f9d1decf4f31")
+	)
+	(wire
+		(pts
+			(xy 161.29 127) (xy 190.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dde6499-e87d-4e76-97a4-aab185df7a1a")
+	)
+	(wire
+		(pts
+			(xy 241.3 30.48) (xy 252.73 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e67dec6-5708-4b41-b83c-6fe7d019a46f")
+	)
+	(wire
+		(pts
+			(xy 135.89 153.67) (xy 135.89 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edc0227-ef3b-41ee-8d04-10e259e6256e")
+	)
+	(wire
+		(pts
+			(xy 139.7 64.77) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2b8ce1-e3e0-4d31-b0f5-eaa00ab692fa")
+	)
+	(wire
+		(pts
+			(xy 114.3 96.52) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f65ad87-407c-489f-95f9-3b192865fc91")
+	)
+	(wire
+		(pts
+			(xy 161.29 107.95) (xy 189.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f725fb9-ecf3-414e-85e3-153f3c054711")
+	)
+	(wire
+		(pts
+			(xy 60.96 127) (xy 60.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc4583c-0259-44bf-966d-c57acf050ad6")
+	)
+	(wire
+		(pts
+			(xy 161.29 69.85) (xy 161.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106b684a-3cb1-4311-bde2-6447a81bc2e6")
+	)
+	(wire
+		(pts
+			(xy 132.08 176.53) (xy 132.08 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f14887-44f4-4e79-b469-d6123af75b12")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 104.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ff549f-d465-4b36-a5e9-8cb004ce624e")
+	)
+	(wire
+		(pts
+			(xy 134.62 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1725f7ab-1bd2-41c9-b84b-7ce588e01392")
+	)
+	(wire
+		(pts
+			(xy 171.45 64.77) (xy 170.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19076266-345b-4034-8a77-c13d7646347e")
+	)
+	(wire
+		(pts
+			(xy 142.24 107.95) (xy 161.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "190e9dc1-061a-455c-b7f7-0645be7fca95")
+	)
+	(wire
+		(pts
+			(xy 171.45 83.82) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d7c89e-3564-4e18-adf5-bad2b4b6282a")
+	)
+	(wire
+		(pts
+			(xy 100.33 101.6) (xy 105.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1afc5723-151c-4c35-85d1-24e916ece486")
+	)
+	(wire
+		(pts
+			(xy 227.33 88.9) (xy 200.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef8e877-4064-44d7-a3fb-29bd7cf59eaa")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f52a4f7-4309-4112-907b-f0258b66f500")
+	)
+	(wire
+		(pts
+			(xy 124.46 88.9) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b79d9b-e546-4e41-b421-a8f8569ab6ef")
+	)
+	(wire
+		(pts
+			(xy 118.11 140.97) (xy 125.73 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c9cd05-759f-4030-9133-2920975ff556")
+	)
+	(wire
+		(pts
+			(xy 198.12 34.29) (xy 205.74 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d0ee27-a3f0-49c7-8713-0b3f6e94b079")
+	)
+	(wire
+		(pts
+			(xy 273.05 -13.97) (xy 273.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2102ad16-5fe8-46fc-a73b-8608c3ce2d80")
+	)
+	(wire
+		(pts
+			(xy 171.45 134.62) (xy 171.45 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2141ba39-d8e5-46ca-9bf7-6b9fdbb3fe49")
+	)
+	(wire
+		(pts
+			(xy 161.29 96.52) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21600cb4-d26f-4d9a-850b-f450360b0504")
+	)
+	(wire
+		(pts
+			(xy 77.47 120.65) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ceaea0-6942-40a8-8935-93f717a94560")
+	)
+	(wire
+		(pts
+			(xy 171.45 115.57) (xy 171.45 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238c4ebb-cafd-4950-a3e4-c20c9bebedc1")
+	)
+	(wire
+		(pts
+			(xy 92.71 140.97) (xy 93.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263ac58b-f6ea-442e-a546-38d05a223481")
+	)
+	(wire
+		(pts
+			(xy 139.7 120.65) (xy 143.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b19071-7b03-4779-81fd-4b9bfa44f2df")
+	)
+	(wire
+		(pts
+			(xy 100.33 140.97) (xy 105.41 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279dd5df-7adb-441c-b9ab-ce02bc909ba4")
+	)
+	(wire
+		(pts
+			(xy 157.48 83.82) (xy 157.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2815aac3-866e-4290-87fe-b3dbd15fede1")
+	)
+	(wire
+		(pts
+			(xy 118.11 120.65) (xy 125.73 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e5a9ed-5166-4391-8929-38015b59ca0d")
+	)
+	(wire
+		(pts
+			(xy 77.47 83.82) (xy 85.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c11083d-31df-4784-9284-9e42782cc535")
+	)
+	(wire
+		(pts
+			(xy 100.33 101.6) (xy 100.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c43f219-ac64-4623-ab68-8ba388555fd9")
+	)
+	(wire
+		(pts
+			(xy 77.47 140.97) (xy 85.09 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d184895-3a8a-4b9e-bf3e-72a5e5ddffac")
+	)
+	(wire
+		(pts
+			(xy 118.11 64.77) (xy 125.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d420904-53f2-4845-8b8b-dc517cb5d616")
+	)
+	(wire
+		(pts
+			(xy 179.07 57.15) (xy 179.07 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d55d6a8-b8b6-4fa2-8ec0-64b46c680b58")
+	)
+	(wire
+		(pts
+			(xy 176.53 36.83) (xy 100.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dfe146e-790a-4dff-b40c-99904c79c801")
+	)
+	(wire
+		(pts
+			(xy 161.29 127) (xy 161.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0b408a-3846-44b8-9ca4-2c8e9e5fd75d")
+	)
+	(wire
+		(pts
+			(xy 142.24 52.07) (xy 124.46 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8e2b1f-6006-4ad8-8155-50a08e5be511")
+	)
+	(wire
+		(pts
+			(xy 251.46 -3.81) (xy 251.46 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308d0c3c-5dda-4a92-8a96-6be05e0f9f68")
+	)
+	(wire
+		(pts
+			(xy 193.04 58.42) (xy 193.04 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3124dc61-f909-451b-a262-a6c4436a4722")
+	)
+	(wire
+		(pts
+			(xy 205.74 -10.16) (xy 205.74 7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330fcaa6-4933-4f05-af74-6b9313700cea")
+	)
+	(wire
+		(pts
+			(xy 185.42 52.07) (xy 185.42 -7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d93dfc-d6d1-4674-af83-59a10472c3e8")
+	)
+	(wire
+		(pts
+			(xy 134.62 77.47) (xy 134.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36460899-a889-42eb-9df2-ba6b4a014599")
+	)
+	(wire
+		(pts
+			(xy 247.65 110.49) (xy 198.12 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e3a9cc-b355-4f82-a1b4-7470e2c9372e")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 83.82 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370526a4-7e75-4401-8672-ef728628112e")
+	)
+	(wire
+		(pts
+			(xy 92.71 101.6) (xy 93.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0e8d29-fe33-4a06-b9ff-493fb06e356f")
+	)
+	(wire
+		(pts
+			(xy 100.33 36.83) (xy 100.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9cad33-467c-4da0-90e5-dfd7cf113ab9")
+	)
+	(wire
+		(pts
+			(xy 142.24 88.9) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c57ade8-4127-401f-b6c6-e1c9d5331e52")
+	)
+	(wire
+		(pts
+			(xy 241.3 15.24) (xy 252.73 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd1b1f2-7f70-4969-ad65-f91a53ae6362")
+	)
+	(wire
+		(pts
+			(xy 83.82 107.95) (xy 83.82 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d61137e-cfee-4928-9f0b-790ac4c57564")
+	)
+	(wire
+		(pts
+			(xy 69.85 120.65) (xy 71.12 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7f1fee-a617-488a-8dd9-27d7d797d819")
+	)
+	(wire
+		(pts
+			(xy 133.35 83.82) (xy 134.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0afac4-3408-418d-91bd-1dd4215685d3")
+	)
+	(wire
+		(pts
+			(xy 157.48 44.45) (xy 157.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebb54a1-182d-498a-b55a-433b1d32beaa")
+	)
+	(wire
+		(pts
+			(xy 146.05 189.23) (xy 251.46 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40992b3d-e4eb-449d-8d15-8cd06c8dc7d6")
+	)
+	(wire
+		(pts
+			(xy 179.07 33.02) (xy 77.47 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410c6320-8173-4b4b-95ff-6406eff6b009")
+	)
+	(wire
+		(pts
+			(xy 242.57 38.1) (xy 242.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41735ed8-9316-4766-8588-84754e4c8bac")
+	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422e51c8-4b2c-454f-8adc-a1ccefd61184")
+	)
+	(wire
+		(pts
+			(xy 118.11 39.37) (xy 118.11 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ded5a8-7379-4e75-9cf6-c4a6ff59211e")
+	)
+	(wire
+		(pts
+			(xy 53.34 64.77) (xy 53.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432c00cc-f2a8-4fa3-81de-ffaf289941e7")
+	)
+	(wire
+		(pts
+			(xy 132.08 191.77) (xy 274.32 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443f0ca2-f631-42f8-88f1-cfa9fbbad492")
+	)
+	(wire
+		(pts
+			(xy 173.99 39.37) (xy 118.11 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f11fc8-b8f6-40ae-ae1b-14d0a43dc13e")
+	)
+	(wire
+		(pts
+			(xy 114.3 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4578a898-0c6f-4ef8-9646-026085ab0c06")
+	)
+	(wire
+		(pts
+			(xy 71.12 101.6) (xy 69.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ea6462-3705-46e1-bece-da17afe99069")
+	)
+	(wire
+		(pts
+			(xy 273.05 81.28) (xy 256.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47410b24-b4ec-488c-97ae-e5beb0ecc9d1")
+	)
+	(wire
+		(pts
+			(xy 71.12 134.62) (xy 71.12 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475bf236-ef53-4f80-bb91-69fbcbd588c0")
+	)
+	(wire
+		(pts
+			(xy 104.14 127) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47953b65-33cc-4460-ab5e-650dffc57235")
+	)
+	(wire
+		(pts
+			(xy 200.66 138.43) (xy 181.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a26226-d8fb-4dc2-a7b5-20de03725030")
+	)
+	(wire
+		(pts
+			(xy 83.82 107.95) (xy 60.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c1c6c0-2469-42dc-a509-d34941a13849")
+	)
+	(wire
+		(pts
+			(xy 124.46 88.9) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e8d370-e81f-4e8c-ba7d-cd2e8cedce22")
+	)
+	(wire
+		(pts
+			(xy 134.62 140.97) (xy 133.35 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac903d8-2a08-4312-8bcb-6edb617d7577")
+	)
+	(wire
+		(pts
+			(xy 53.34 140.97) (xy 62.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba692ee-9c17-4af3-8066-230ffde75881")
+	)
+	(wire
+		(pts
+			(xy 146.05 181.61) (xy 146.05 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6e595a-0315-4843-b0a5-dca73c1017ec")
+	)
+	(wire
+		(pts
+			(xy 219.71 46.99) (xy 219.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dba82f3-8239-4df3-883e-a6814e77bfa6")
+	)
+	(wire
+		(pts
+			(xy 161.29 69.85) (xy 186.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de21fc3-102f-466c-9ca3-769737d58743")
+	)
+	(wire
+		(pts
+			(xy 83.82 127) (xy 60.96 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e29262c-4b24-4199-a9e5-5fd657cfd6e3")
+	)
+	(wire
+		(pts
+			(xy 241.3 22.86) (xy 250.19 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4e1243-67f3-4b6d-9104-d582ec7ebe27")
+	)
+	(wire
+		(pts
+			(xy 53.34 120.65) (xy 62.23 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6df392-9477-4d29-bb8c-5994cce9452f")
+	)
+	(wire
+		(pts
+			(xy 135.89 44.45) (xy 139.7 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f929d30-b10b-4764-a1dd-216b88ac9881")
+	)
+	(wire
+		(pts
+			(xy 142.24 69.85) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fadb412-76a5-44c4-a45d-80b102fed54d")
+	)
+	(wire
+		(pts
+			(xy 134.62 115.57) (xy 134.62 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b4a17f-f6a4-42d6-8938-30871ee8f1d8")
+	)
+	(wire
+		(pts
+			(xy 93.98 134.62) (xy 93.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538742bf-044a-4131-9976-519000dae4b4")
+	)
+	(wire
+		(pts
+			(xy 205.74 38.1) (xy 205.74 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f9609f-0feb-4454-9dfc-11a8d8cd87d1")
+	)
+	(wire
+		(pts
+			(xy 93.98 96.52) (xy 93.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5440f962-ce8a-4b6a-92b4-c354897c1ca0")
+	)
+	(wire
+		(pts
+			(xy 157.48 83.82) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5499b96a-550c-4b82-9858-8eb3782bf50b")
+	)
+	(wire
+		(pts
+			(xy 134.62 59.69) (xy 134.62 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b5ec83-1ef7-4d68-9766-2f8d8429bd3e")
+	)
+	(wire
+		(pts
+			(xy 100.33 83.82) (xy 100.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562f4b06-6af3-471c-906e-8801ebf67171")
+	)
+	(wire
+		(pts
+			(xy 171.45 59.69) (xy 171.45 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56aea7e1-0d91-4f84-8351-01cbcaf3544f")
+	)
+	(wire
+		(pts
+			(xy 251.46 -3.81) (xy 187.96 -3.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ff897f-7db6-4f47-bd5a-b13ddcc098f1")
+	)
+	(wire
+		(pts
+			(xy 219.71 127) (xy 273.05 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fb6790-25af-4ab2-b7c7-14ee0db9c998")
+	)
+	(wire
+		(pts
+			(xy 139.7 101.6) (xy 143.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a57527f-b2f4-498a-9189-d8090b1d3d2f")
+	)
+	(wire
+		(pts
+			(xy 251.46 118.11) (xy 215.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b676c5f-c9ba-4ce3-b6e8-58d80c057b1d")
+	)
+	(wire
+		(pts
+			(xy 153.67 44.45) (xy 157.48 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8f2ed8-fb97-40e7-8ce0-3c5452f4cefb")
+	)
+	(wire
+		(pts
+			(xy 161.29 69.85) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be150e8-e1f9-4c0f-8f17-6716e22de2fd")
+	)
+	(wire
+		(pts
+			(xy 53.34 64.77) (xy 62.23 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1ebcb2-f0b0-4bb8-80b4-bd8ad5882418")
+	)
+	(wire
+		(pts
+			(xy 71.12 83.82) (xy 69.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8344b8-2e35-4dc7-a0ed-df172e3b14bb")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 83.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e13a89b-80dd-4632-95f8-e9c26b5badcf")
+	)
+	(wire
+		(pts
+			(xy 250.19 -1.27) (xy 189.23 -1.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e1def1a-ba0a-4b4a-8b62-33eff71580b6")
+	)
+	(wire
+		(pts
+			(xy 142.24 52.07) (xy 142.24 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2e5c9e-8e77-4022-9333-d2e69852ef68")
+	)
+	(wire
+		(pts
+			(xy 142.24 88.9) (xy 124.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607521e1-9a0d-477b-9ce9-dba5156339a8")
+	)
+	(wire
+		(pts
+			(xy 77.47 64.77) (xy 85.09 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611856c7-c95c-4d00-a52c-f8c2d1c9c64e")
+	)
+	(wire
+		(pts
+			(xy 193.04 22.86) (xy 193.04 -16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61479af7-c684-4449-9f70-42632fbc8fb1")
+	)
+	(wire
+		(pts
+			(xy 92.71 120.65) (xy 93.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6263ab1a-512f-4139-949f-ca8325d28218")
+	)
+	(wire
+		(pts
+			(xy 83.82 88.9) (xy 83.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6270123a-a352-4ed5-8cf2-b6e4686d9bc7")
+	)
+	(wire
+		(pts
+			(xy 152.4 77.47) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636adf2e-eb72-42c6-8ccf-4bd34301e0f4")
+	)
+	(wire
+		(pts
+			(xy 189.23 -1.27) (xy 189.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66cb532d-3127-4a47-a574-d5b3f1ce571e")
+	)
+	(wire
+		(pts
+			(xy 114.3 120.65) (xy 113.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6957069e-99b1-4aab-9528-fd6315ce3dfc")
+	)
+	(wire
+		(pts
+			(xy 139.7 64.77) (xy 143.51 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7a1126-6a46-4b61-8790-bc50fdee6976")
+	)
+	(wire
+		(pts
+			(xy 229.87 133.35) (xy 223.52 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bad506b-57e2-4e65-a6ec-1c0f74888e35")
+	)
+	(wire
+		(pts
+			(xy 187.96 77.47) (xy 186.69 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2aed8e-87d6-4edd-83cc-9d46b6a055f3")
+	)
+	(wire
+		(pts
+			(xy 139.7 140.97) (xy 143.51 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4daa0f-16fb-4015-9427-f37f80c235c3")
+	)
+	(wire
+		(pts
+			(xy 104.14 69.85) (xy 83.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6b32e6-e954-43d6-b022-bdee3521f5c9")
+	)
+	(wire
+		(pts
+			(xy 133.35 171.45) (xy 133.35 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd1cfa3-b27e-4cf8-8686-04178698e390")
+	)
+	(wire
+		(pts
+			(xy 53.34 83.82) (xy 62.23 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7039ae0f-48ec-4f38-affa-123e4067c36d")
+	)
+	(wire
+		(pts
+			(xy 152.4 59.69) (xy 152.4 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71307529-bd30-4a79-a135-1aa4ad3aa285")
+	)
+	(wire
+		(pts
+			(xy 274.32 191.77) (xy 274.32 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72262a78-732f-4771-b1bf-32caa2925c1c")
+	)
+	(wire
+		(pts
+			(xy 60.96 88.9) (xy 60.96 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724ca214-bc59-4a24-ba33-29350f98a8be")
+	)
+	(wire
+		(pts
+			(xy 104.14 52.07) (xy 83.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b16501-4961-48b7-a2e3-1faef1277677")
+	)
+	(wire
+		(pts
+			(xy 252.73 53.34) (xy 181.61 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730c56ab-a7e4-4557-8323-dc833c55fb0d")
+	)
+	(wire
+		(pts
+			(xy 104.14 69.85) (xy 104.14 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73684ba0-86fe-4387-b102-fc36df789c66")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 151.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c9fa89-d19e-4614-ab63-c46c343f11a5")
+	)
+	(wire
+		(pts
+			(xy 142.24 88.9) (xy 142.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743d4277-532c-46a8-9221-a706b7b724f5")
+	)
+	(wire
+		(pts
+			(xy 93.98 83.82) (xy 92.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75dbcf94-fdc5-44a3-9c54-b859fd2e80df")
+	)
+	(wire
+		(pts
+			(xy 181.61 53.34) (xy 181.61 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767be975-2dd1-46b6-9633-fa7cddb04a4b")
+	)
+	(wire
+		(pts
+			(xy 157.48 120.65) (xy 162.56 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "769117e9-eb52-4a00-990d-b8423d167c24")
+	)
+	(wire
+		(pts
+			(xy 53.34 83.82) (xy 53.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78790268-2be3-4290-9260-f95dfbeff5f3")
+	)
+	(wire
+		(pts
+			(xy 71.12 120.65) (xy 71.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a044fa2-3930-4e0b-acfa-2afc973fe06d")
+	)
+	(wire
+		(pts
+			(xy 71.12 64.77) (xy 69.85 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a47e8ee-83cc-4b29-a316-f0aef0417e0d")
+	)
+	(wire
+		(pts
+			(xy 104.14 127) (xy 83.82 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab8e031-9afc-4bc3-affa-40abb67d9029")
+	)
+	(wire
+		(pts
+			(xy 171.45 140.97) (xy 170.18 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b007c4c-f1af-4e5e-8440-700d23a52808")
+	)
+	(wire
+		(pts
+			(xy 146.05 176.53) (xy 132.08 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b191c85-d1e7-4eed-9a2e-3c1b521bcc73")
+	)
+	(wire
+		(pts
+			(xy 71.12 96.52) (xy 71.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c27f49f-bc8f-417d-a4b1-a929abbd6523")
+	)
+	(wire
+		(pts
+			(xy 134.62 64.77) (xy 133.35 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6058fd-6da4-41bc-bc7a-64310f4b18f1")
+	)
+	(wire
+		(pts
+			(xy 92.71 64.77) (xy 93.98 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf4ba74-ab26-4d17-85fa-69ea3d8c94da")
+	)
+	(wire
+		(pts
+			(xy 142.24 127) (xy 142.24 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f879894-c170-4e8e-a2f9-d567b5b75f49")
+	)
+	(wire
+		(pts
+			(xy 124.46 134.62) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fad77a3-71dd-4245-a58f-0ddefa70af50")
+	)
+	(wire
+		(pts
+			(xy 251.46 118.11) (xy 251.46 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81409259-a730-4e15-87d4-6fc133154d08")
+	)
+	(wire
+		(pts
+			(xy 171.45 101.6) (xy 170.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82037aba-6a5e-4cdb-90ec-d928bc8952e1")
+	)
+	(wire
+		(pts
+			(xy 100.33 64.77) (xy 105.41 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8256a560-b352-44bd-9c37-46eaf34fcf50")
+	)
+	(wire
+		(pts
+			(xy 124.46 69.85) (xy 124.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8290f69e-8412-4ef4-86e7-0ad92e6d973e")
+	)
+	(wire
+		(pts
+			(xy 181.61 29.21) (xy 53.34 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844c72b3-3db7-42d8-8c21-89fedb3690e9")
+	)
+	(wire
+		(pts
+			(xy 181.61 153.67) (xy 135.89 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864d71ff-3667-4940-b7f3-125af5055b66")
+	)
+	(wire
+		(pts
+			(xy 114.3 59.69) (xy 114.3 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864f6496-6ec7-42c3-92c1-afcbab8c862e")
+	)
+	(wire
+		(pts
+			(xy 255.27 -16.51) (xy 255.27 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b43d4a-8ee6-4704-9d16-c9d129ca0871")
+	)
+	(wire
+		(pts
+			(xy 171.45 181.61) (xy 247.65 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cc5668-262f-463c-b624-67026cd3812f")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d2da18-0004-41cc-aca1-ecba35f1cbbf")
+	)
+	(wire
+		(pts
+			(xy 219.71 124.46) (xy 267.97 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880e5bb3-07f7-41a5-9503-c817a1c31645")
+	)
+	(wire
+		(pts
+			(xy 71.12 77.47) (xy 71.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894452ff-dcfd-44fa-bfda-2bc3668f8043")
+	)
+	(wire
+		(pts
+			(xy 83.82 52.07) (xy 60.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b46fb1c-e3eb-4aa7-be8f-e56b68e6a41b")
+	)
+	(wire
+		(pts
+			(xy 193.04 137.16) (xy 179.07 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8f22f8-079b-4376-8fde-0bc5282279d0")
+	)
+	(wire
+		(pts
+			(xy 134.62 96.52) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc23b04-357d-42a2-b4dc-ea72764b7265")
+	)
+	(wire
+		(pts
+			(xy 179.07 137.16) (xy 179.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d11185f-f6a6-4a38-9061-a0548e548fb1")
+	)
+	(wire
+		(pts
+			(xy 157.48 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd7696b-bde5-4644-84a8-0f452dcb9a70")
+	)
+	(wire
+		(pts
+			(xy 185.42 -7.62) (xy 254 -7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb3f9db-af78-43fa-8e55-a55231968a81")
+	)
+	(wire
+		(pts
+			(xy 223.52 129.54) (xy 219.71 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8ad176-9896-4907-ab88-14b43b081950")
+	)
+	(wire
+		(pts
+			(xy 256.54 81.28) (xy 256.54 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920e1a7b-2646-4fad-9a49-ee177980ef25")
+	)
+	(wire
+		(pts
+			(xy 223.52 58.42) (xy 193.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a2e172-bf75-4f30-a3a9-9c354e491caa")
+	)
+	(wire
+		(pts
+			(xy 161.29 107.95) (xy 161.29 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94dc2395-584b-4707-95b1-97cf41646450")
+	)
+	(wire
+		(pts
+			(xy 248.92 1.27) (xy 248.92 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95365b57-70b4-4a5f-8ba7-a9d8221135c5")
+	)
+	(wire
+		(pts
+			(xy 71.12 140.97) (xy 69.85 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9561cb03-ba0b-46d6-ba70-6a3ab1f94750")
+	)
+	(wire
+		(pts
+			(xy 179.07 148.59) (xy 153.67 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c1abcd-3a1b-40fc-81b9-7deace7b9576")
+	)
+	(wire
+		(pts
+			(xy 124.46 107.95) (xy 142.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994dbaf7-f77e-4a6d-93c1-efca982d1314")
+	)
+	(wire
+		(pts
+			(xy 83.82 88.9) (xy 60.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99eed43a-5dac-43bf-a2fd-a95df89888d3")
+	)
+	(wire
+		(pts
+			(xy 186.69 77.47) (xy 186.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fe8ebf-cab7-457b-8c5e-bd2c84640b2e")
+	)
+	(wire
+		(pts
+			(xy 133.35 185.42) (xy 254 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfde4ea-ff09-491b-ae9b-8d10f19849ab")
+	)
+	(wire
+		(pts
+			(xy 185.42 52.07) (xy 161.29 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1152b2-a9eb-4cd9-a0b7-5a8b08fa0d79")
+	)
+	(wire
+		(pts
+			(xy 77.47 120.65) (xy 77.47 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d625b1a-b954-496a-9ba8-75c953243ac5")
+	)
+	(wire
+		(pts
+			(xy 152.4 115.57) (xy 152.4 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb2c03b-a1ad-4553-9ceb-7707cf972b9f")
+	)
+	(wire
+		(pts
+			(xy 215.9 46.99) (xy 215.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffeac90-8586-47f9-8bd0-2c365b07c8e0")
+	)
+	(wire
+		(pts
+			(xy 205.74 22.86) (xy 193.04 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fff51c7-19f9-40ee-8142-ac2662876d50")
+	)
+	(wire
+		(pts
+			(xy 104.14 52.07) (xy 104.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11f586d-6420-406d-81c6-42f2658ef19e")
+	)
+	(wire
+		(pts
+			(xy 100.33 64.77) (xy 100.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13c034e-04cd-43fe-8b10-294cbdeea099")
+	)
+	(wire
+		(pts
+			(xy 124.46 107.95) (xy 104.14 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b83dc6-1e92-401d-b7ca-8d9efb5b037c")
+	)
+	(wire
+		(pts
+			(xy 157.48 120.65) (xy 157.48 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a330c56e-1c42-489d-af24-1dd310c04017")
+	)
+	(wire
+		(pts
+			(xy 250.19 34.29) (xy 250.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3733b30-b343-436c-a8a4-30b15f6a802f")
+	)
+	(wire
+		(pts
+			(xy 53.34 29.21) (xy 53.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c30ac0-05c0-46ce-8744-047612477ac4")
+	)
+	(wire
+		(pts
+			(xy 254 114.3) (xy 254 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68eb723-4baf-4b18-8ea7-472e5ebd0757")
+	)
+	(wire
+		(pts
+			(xy 241.3 34.29) (xy 250.19 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a851fcbd-1f24-4643-9b67-56ce3233854f")
+	)
+	(wire
+		(pts
+			(xy 114.3 77.47) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8786340-83f9-4122-8fc1-3c6172cd634c")
+	)
+	(wire
+		(pts
+			(xy 267.97 -10.16) (xy 267.97 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8dcaac7-391a-49af-8877-fba9ab4a18ab")
+	)
+	(wire
+		(pts
+			(xy 93.98 59.69) (xy 93.98 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ea7f7b-a44d-4e3d-b5b8-08cf579ff8d7")
+	)
+	(wire
+		(pts
+			(xy 227.33 46.99) (xy 227.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96b94b0-c657-4d30-9fa5-8d1aaeec7a13")
+	)
+	(wire
+		(pts
+			(xy 247.65 110.49) (xy 247.65 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d2a7f0-4a3f-4559-8917-e644b781d4b5")
+	)
+	(wire
+		(pts
+			(xy 267.97 -10.16) (xy 205.74 -10.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa67cd58-eccf-48ac-8d71-491bdf08733b")
+	)
+	(wire
+		(pts
+			(xy 134.62 120.65) (xy 133.35 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac252276-6867-4295-8b1d-6d551e491aa0")
+	)
+	(wire
+		(pts
+			(xy 199.39 -13.97) (xy 273.05 -13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae16f159-d6fd-4b07-9917-baf5ca3996b7")
+	)
+	(wire
+		(pts
+			(xy 173.99 62.23) (xy 173.99 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae46722c-81a1-4f59-8ff5-91eb08748234")
+	)
+	(wire
+		(pts
+			(xy 273.05 81.28) (xy 273.05 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea8b857-c019-487c-b2c9-086a6a9ba8e8")
+	)
+	(wire
+		(pts
+			(xy 114.3 140.97) (xy 113.03 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af56f018-6e20-4ad7-a681-07b92d4c314f")
+	)
+	(wire
+		(pts
+			(xy 187.96 -3.81) (xy 187.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a80b06-3211-4b93-ab8d-f1eff5bf6224")
+	)
+	(wire
+		(pts
+			(xy 181.61 138.43) (xy 181.61 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12566c9-c81c-4a5e-91f2-7f64fad88f76")
+	)
+	(wire
+		(pts
+			(xy 124.46 52.07) (xy 104.14 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2270229-7a45-4e38-b866-4fa1e6c6441f")
+	)
+	(wire
+		(pts
+			(xy 237.49 133.35) (xy 245.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bc8f2d-f539-478b-a582-970c3d4ab1d2")
+	)
+	(wire
+		(pts
+			(xy 142.24 69.85) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b588c6b6-4ee3-4f7f-b102-0ec9f0e3c1b5")
+	)
+	(wire
+		(pts
+			(xy 199.39 11.43) (xy 199.39 -13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b2dec2-302b-4db7-aca3-5b48bff35da2")
+	)
+	(wire
+		(pts
+			(xy 118.11 64.77) (xy 118.11 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ed41c6-2e41-4d58-ade1-dad7760002df")
+	)
+	(wire
+		(pts
+			(xy 118.11 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b835d159-765c-4b6d-809b-660f79d3d915")
+	)
+	(wire
+		(pts
+			(xy 71.12 59.69) (xy 71.12 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f4609b-9bfd-4591-985b-5a3689f6c6db")
+	)
+	(wire
+		(pts
+			(xy 171.45 77.47) (xy 171.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95a81a0-7dce-4b87-8658-b1187973331d")
+	)
+	(wire
+		(pts
+			(xy 152.4 140.97) (xy 151.13 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99aea13-2fd6-4bae-935b-b84b6f07a22a")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae20de0-2847-4999-89d7-ff003910c32a")
+	)
+	(wire
+		(pts
+			(xy 139.7 101.6) (xy 139.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1e8a41-69e4-4fc2-bde4-6b31baa40ea2")
+	)
+	(wire
+		(pts
+			(xy 100.33 83.82) (xy 105.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdb7602-8ba3-4f64-83b3-917af2b5de29")
+	)
+	(wire
+		(pts
+			(xy 245.11 7.62) (xy 241.3 7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd00b8f7-3f49-4f57-9809-d6efb4332193")
+	)
+	(wire
+		(pts
+			(xy 161.29 52.07) (xy 142.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdce6eb5-00b2-45cc-a379-72cca50a1b37")
+	)
+	(wire
+		(pts
+			(xy 171.45 96.52) (xy 171.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf95043-6ad5-4639-9085-56fba2461adc")
+	)
+	(wire
+		(pts
+			(xy 118.11 120.65) (xy 118.11 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15a63d5-b366-4282-a856-b558a985422e")
+	)
+	(wire
+		(pts
+			(xy 100.33 120.65) (xy 100.33 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35d7df2-f4e5-4913-9a46-5c1062721469")
+	)
+	(wire
+		(pts
+			(xy 242.57 60.96) (xy 176.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71c4dc4-80d3-450f-8a09-2fa6f7942882")
+	)
+	(wire
+		(pts
+			(xy 134.62 134.62) (xy 134.62 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a4d1e4-b764-4698-b5d0-b59fd5800d9b")
+	)
+	(wire
+		(pts
+			(xy 245.11 7.62) (xy 245.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a5a924-b07c-4e06-bbfd-c3161ff5a3ed")
+	)
+	(wire
+		(pts
+			(xy 205.74 11.43) (xy 199.39 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9cb3748-d531-4b49-ab23-ff0fbed1a2cf")
+	)
+	(wire
+		(pts
+			(xy 157.48 140.97) (xy 162.56 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fa0869-1d3f-4911-b86f-22000e7ba6df")
+	)
+	(wire
+		(pts
+			(xy 250.19 57.15) (xy 179.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caeda76d-d8a6-414c-ada4-8bc0bff0e137")
+	)
+	(wire
+		(pts
+			(xy 173.99 62.23) (xy 231.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf9a50b-5f9a-497f-b79a-1f2cd5bc202e")
+	)
+	(wire
+		(pts
+			(xy 274.32 152.4) (xy 273.05 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbd127e-e674-4145-a514-938e5d792cae")
+	)
+	(wire
+		(pts
+			(xy 133.35 171.45) (xy 146.05 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf8c099-77d2-4ed1-a966-757e68f17bc3")
+	)
+	(wire
+		(pts
+			(xy 223.52 46.99) (xy 223.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf38a19d-f634-4a60-b34b-17b0e9b4e47a")
+	)
+	(wire
+		(pts
+			(xy 262.89 72.39) (xy 264.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd90996-b42e-45af-b9e9-2298c79d734d")
+	)
+	(wire
+		(pts
+			(xy 83.82 52.07) (xy 83.82 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2babd78-dd82-406d-b5a0-aa9f4f864688")
+	)
+	(wire
+		(pts
+			(xy 241.3 38.1) (xy 242.57 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4152b9a-2b98-4fcc-a850-004716404928")
+	)
+	(wire
+		(pts
+			(xy 193.04 -16.51) (xy 255.27 -16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41bbea0-ab8f-441c-a627-92bd74568537")
+	)
+	(wire
+		(pts
+			(xy 142.24 115.57) (xy 142.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a9913b-3a84-4602-a6e4-c647482b6937")
+	)
+	(wire
+		(pts
+			(xy 53.34 101.6) (xy 53.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d939db2d-7152-4120-a82f-f3645ee0b248")
+	)
+	(wire
+		(pts
+			(xy 241.3 26.67) (xy 248.92 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d944074d-e337-4dc6-863f-1410f33a1b69")
+	)
+	(wire
+		(pts
+			(xy 254 114.3) (xy 219.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da494e81-b6bc-464e-8168-32db6b88c5d8")
+	)
+	(wire
+		(pts
+			(xy 157.48 101.6) (xy 157.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daee7034-7320-4b74-8534-dffc86102fd1")
+	)
+	(wire
+		(pts
+			(xy 186.69 -6.35) (xy 186.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5ad5fb-9865-4e97-b229-db02a892024e")
+	)
+	(wire
+		(pts
+			(xy 77.47 83.82) (xy 77.47 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc382d98-a398-4f64-aa61-412923fd6ab4")
+	)
+	(wire
+		(pts
+			(xy 93.98 115.57) (xy 93.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6c5a80-eb8a-43fa-a504-f5a4eb43039a")
+	)
+	(wire
+		(pts
+			(xy 152.4 134.62) (xy 152.4 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc98caad-1548-4785-9a8d-3e4088c5ccb1")
+	)
+	(wire
+		(pts
+			(xy 248.92 1.27) (xy 190.5 1.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dccbb2e3-5039-465c-95e0-eef0fed8a06c")
+	)
+	(wire
+		(pts
+			(xy 241.3 19.05) (xy 251.46 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def8128e-f5d4-43e6-9c58-dc2cff25dea9")
+	)
+	(wire
+		(pts
+			(xy 152.4 120.65) (xy 151.13 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e061f3de-3693-46b6-b00a-468a5eac11ce")
+	)
+	(wire
+		(pts
+			(xy 252.73 30.48) (xy 252.73 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e270982c-bb13-4b68-9e5c-c11426967dd5")
+	)
+	(wire
+		(pts
+			(xy 139.7 44.45) (xy 139.7 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28b9c10-53cc-4e2c-96b8-7b5cdbbc95c9")
+	)
+	(wire
+		(pts
+			(xy 114.3 64.77) (xy 113.03 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e389ca79-d530-4efd-bcd7-f07c15625fbb")
+	)
+	(wire
+		(pts
+			(xy 83.82 127) (xy 83.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e405d6c3-05d4-462f-b493-cd2ec5ad44f8")
+	)
+	(wire
+		(pts
+			(xy 77.47 101.6) (xy 85.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e514202b-4dd8-43b0-85ac-72c89c624465")
+	)
+	(wire
+		(pts
+			(xy 223.52 133.35) (xy 223.52 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63a48d6-9e8e-4f48-8f70-807098c43679")
+	)
+	(wire
+		(pts
+			(xy 161.29 52.07) (xy 161.29 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e729967d-bffd-46af-811a-178fe51b9047")
+	)
+	(wire
+		(pts
+			(xy 53.34 101.6) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d902a9-37c5-4de2-927a-e7784a31ff8e")
+	)
+	(wire
+		(pts
+			(xy 60.96 107.95) (xy 60.96 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88bc70d-baaf-4c88-a182-95bb9f2c6aa9")
+	)
+	(wire
+		(pts
+			(xy 77.47 101.6) (xy 77.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9785e52-a6ff-497a-a666-ae1b52b9660b")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eacbcb05-eef1-4bf9-8474-4474a9441acb")
+	)
+	(wire
+		(pts
+			(xy 252.73 -6.35) (xy 186.69 -6.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed87d521-35b3-4fe5-a1c8-715edbe2be09")
+	)
+	(wire
+		(pts
+			(xy 60.96 52.07) (xy 60.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea4e11d-30c4-41b4-8dcb-307a25234b6d")
+	)
+	(wire
+		(pts
+			(xy 171.45 120.65) (xy 170.18 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0501932-b894-4237-ab08-8e98e1a95393")
+	)
+	(wire
+		(pts
+			(xy 153.67 44.45) (xy 153.67 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18d6603-db90-41c3-a214-4fb566cbef3a")
+	)
+	(wire
+		(pts
+			(xy 77.47 33.02) (xy 77.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b77abd-d685-44be-8457-c26c1ca23434")
+	)
+	(wire
+		(pts
+			(xy 124.46 52.07) (xy 124.46 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1dd9e3b-701b-4d69-8861-c2651bd183d3")
+	)
+	(wire
+		(pts
+			(xy 93.98 77.47) (xy 93.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f369cd49-ff33-4e6e-b176-9fde65dc6a5b")
+	)
+	(wire
+		(pts
+			(xy 200.66 88.9) (xy 200.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b8f9ee-cd25-4615-a86c-a5d8c84b5dcd")
+	)
+	(wire
+		(pts
+			(xy 157.48 64.77) (xy 162.56 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d65d28-9085-4f9e-96f5-1bc5afdbb099")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c13e46-e1a4-40e7-80d4-b956def746cf")
+	)
+	(wire
+		(pts
+			(xy 104.14 127) (xy 104.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6453ae3-6d0c-4e7e-ab5a-b49137ac5682")
+	)
+	(wire
+		(pts
+			(xy 171.45 171.45) (xy 205.74 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f660a411-8c8b-4f69-a2be-157b927fadcf")
+	)
+	(wire
+		(pts
+			(xy 53.34 120.65) (xy 53.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d4aa2e-b586-4d9e-9a94-be0fd0f7d281")
+	)
+	(wire
+		(pts
+			(xy 254 -7.62) (xy 254 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa42ba4c-defa-4df5-a129-bf52723d8e52")
+	)
+	(wire
+		(pts
+			(xy 124.46 107.95) (xy 124.46 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6f4d1e-bc73-4b97-8cb1-58771f64425c")
+	)
+	(wire
+		(pts
+			(xy 152.4 64.77) (xy 151.13 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb298342-6393-4b4a-ab85-4ca232bc2116")
+	)
+	(wire
+		(pts
+			(xy 77.47 64.77) (xy 77.47 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc35cdc5-3bae-4317-8de7-ddd420f94233")
+	)
+	(wire
+		(pts
+			(xy 231.14 46.99) (xy 231.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf02394-5519-4089-b961-60be7cc44a62")
+	)
+	(wire
+		(pts
+			(xy 161.29 88.9) (xy 186.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd52d5f1-1043-44e6-b28e-b7c6a3f16955")
+	)
+	(wire
+		(pts
+			(xy 118.11 101.6) (xy 118.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdeb41d2-acc1-4f3b-a751-f968c7b44a15")
+	)
+	(wire
+		(pts
+			(xy 176.53 36.83) (xy 176.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff50279e-1103-4f20-9322-a371f8ede060")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 60.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6d210f-5b4a-4c8b-93f5-618569ab141a")
+	)
+	(wire
+		(pts
+			(xy 252.73 -6.35) (xy 252.73 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9d4a93-d609-4c0b-bb4c-224a93e68e6e")
+	)
+	(wire
+		(pts
+			(xy 139.7 120.65) (xy 139.7 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffae2c9f-23e5-4014-86c1-0f70771bffa2")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 166.37 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "003ea128-83ce-4ccc-9529-9f3be266a52c")
+		(property "Reference" "SW18"
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 166.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 166.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d163c70-0f5a-4ada-a569-9dda6fb4c019")
+		)
+		(pin "1"
+			(uuid "1b6246a6-b362-467e-9edb-69fe3501ba85")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 147.32 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "003ff1eb-d345-43f9-ae14-14f665db648e")
+		(property "Reference" "SW5"
+			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "520ec8c4-7939-4064-8f63-cc9821d4410d")
+		)
+		(pin "1"
+			(uuid "4ee6d739-408f-4234-b549-8ad0d62fdfce")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 147.32 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0055da51-743a-4f69-90c7-cde65a852f1a")
+		(property "Reference" "D6"
+			(at 147.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 147.32 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 147.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 147.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1343929-f5ed-452d-8c1a-2d1f1e1911c0")
+		)
+		(pin "2"
+			(uuid "727ed5c5-1175-40b0-8181-547e0dab2529")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 260.35 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a5af2fd-2efa-4943-83c3-6ebd9b4cd9c0")
+		(property "Reference" "D1"
+			(at 258.7625 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 258.7625 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 260.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 260.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98260a1d-f937-4d94-b26c-34b2d4408b06")
+		)
+		(pin "2"
+			(uuid "36ff3825-238e-49b4-bdfb-235d91497e7f")
+		)
+		(instances
+			(project ""
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 147.32 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d799311-5854-47b6-b05c-c41a39ba7f0d")
+		(property "Reference" "SW11"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 147.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e96648d9-ea5e-4de0-bca3-1b502491c4d9")
+		)
+		(pin "1"
+			(uuid "c2d3b54c-05ce-489c-92c4-f603d74b512f")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 147.32 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10ce9001-d94d-4b2d-bbda-07862df188b3")
+		(property "Reference" "D30"
+			(at 147.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 147.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 147.32 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 147.32 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 147.32 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "901e30a7-b03b-447c-b8e9-d2bbaa68f647")
+		)
+		(pin "2"
+			(uuid "4aad084a-70e1-43bb-bfa5-07d5b312e44b")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 109.22 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ca2abb-0b73-48ff-b7d3-7e8ec5334763")
+		(property "Reference" "D10"
+			(at 109.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 109.22 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 109.22 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2226cf9c-4b39-4643-9db2-11e57272cb15")
+		)
+		(pin "2"
+			(uuid "599c5e45-b886-4da7-a78c-7502f526e995")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 66.04 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1efb0b64-b166-4622-8e28-c73548a6ed56")
+		(property "Reference" "SW19"
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 66.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 66.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 66.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9fea963-82de-44f3-98c0-16739b3b1907")
+		)
+		(pin "1"
+			(uuid "a702c07d-ee5c-4ee4-808e-d7c18bd16993")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22d87f62-0718-42b0-abb7-7364b57da447")
+		(property "Reference" "SW28"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51877171-320e-4264-a857-ef6b29e817d9")
+		)
+		(pin "1"
+			(uuid "3f3b71b3-dafa-4a11-afcf-618b009ed9ec")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 166.37 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a51b76d-63bb-4e44-b77b-841d66a754e3")
+		(property "Reference" "D25"
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 166.37 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 166.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 166.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3592d798-9167-4a0b-8c34-f53fcd46cfe6")
+		)
+		(pin "2"
+			(uuid "2326c1b3-dea1-45da-b1e3-43e396243da4")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fea01ae-a4a2-4e10-bbee-300d0446ff17")
+		(property "Reference" "SW22"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 129.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 129.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad1cee04-1420-4009-bf57-a3a9c06dc2e1")
+		)
+		(pin "1"
+			(uuid "95401f32-872b-4aea-b6a1-54fa9c7cd251")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyLibrary:5way-navigation-switch")
+		(at 158.75 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35493f68-aa7d-4034-9a4b-9c661e6d8fe7")
+		(property "Reference" "U2"
+			(at 159.004 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5way-navigation-switch"
+			(at 159.258 164.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:5way-navigation-switch"
+			(at 158.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91ae1911-4a94-4381-a35a-c5b745260768")
+		)
+		(pin "3"
+			(uuid "87506864-f106-4652-8693-93745a78791e")
+		)
+		(pin "2"
+			(uuid "bbcc6e6e-36aa-4b5a-8e67-b96b7d2abc57")
+		)
+		(pin "4"
+			(uuid "0dec7af5-adb9-4090-abdc-f12726f1e99c")
+		)
+		(pin "5"
+			(uuid "6018d791-c45f-4d51-a636-f54e1382377c")
+		)
+		(pin "6"
+			(uuid "c4dff9c9-0121-4d59-97cd-071f022ed9d9")
+		)
+		(instances
+			(project ""
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 109.22 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a7ab0e4-6779-4b3d-a5b4-b923a1988a70")
+		(property "Reference" "D4"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 109.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 109.22 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "638bc0e7-75c9-49f2-b2d2-9a73fd4da3cb")
+		)
+		(pin "2"
+			(uuid "1db6d8a5-15e0-469c-b906-f7dca09e3e80")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 109.22 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "403747b4-eb1b-49bd-aaa3-b2cea50d2efa")
+		(property "Reference" "D16"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 109.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 109.22 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f40c90c-33e7-4533-b80c-944c53d70b78")
+		)
+		(pin "2"
+			(uuid "c73b241d-4015-48c5-9174-4887a0a2f259")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 88.9 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4123b112-40fd-4240-9458-7a5ae51eb9cb")
+		(property "Reference" "SW2"
+			(at 88.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "662fb8cc-50ce-4ffb-88ac-262d8398ee51")
+		)
+		(pin "1"
+			(uuid "6a9272bf-668b-491b-82d5-04d10de677a6")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41ea0efe-7a1f-45e4-8fbd-960cb6540f2c")
+		(property "Reference" "SW3"
+			(at 109.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 109.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d65d8ba-26fa-4fed-8e1a-1a44f274107f")
+		)
+		(pin "1"
+			(uuid "81bc9ee8-1000-4401-b63a-d6de6d7c2a53")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 166.37 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "463626c1-3ac0-4955-825e-36096b6f7d40")
+		(property "Reference" "SW12"
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 166.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30c6fc47-b0c8-4998-8a9a-eaef7577a44a")
+		)
+		(pin "1"
+			(uuid "42b5bba6-4d30-4178-a7fe-7f95e7171b1d")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 66.04 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49739cde-c26b-474b-8a67-fe15647f4873")
+		(property "Reference" "SW1"
+			(at 66.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 66.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 66.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 66.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da869d02-eb45-4cb3-b2a4-056af6ca7181")
+		)
+		(pin "1"
+			(uuid "4809d6a6-79b7-423d-ac42-cadf750e22dd")
+		)
+		(instances
+			(project ""
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 166.37 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a01ab4d-d662-4d2b-8aec-832d8e5bd0dc")
+		(property "Reference" "D19"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 166.37 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "025fe263-45e6-4844-b8f1-fdf28ca45ab2")
+		)
+		(pin "2"
+			(uuid "8dd3eafe-e7f2-401a-8c22-fcaf59a3a435")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 88.9 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53207d0d-3c37-4dce-a123-23ac75619926")
+		(property "Reference" "SW20"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 88.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 88.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0612d215-3496-4bd9-934e-cde32a7dffea")
+		)
+		(pin "1"
+			(uuid "afe7cf9e-28af-4943-9587-035696a96db4")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54fb3d28-0afc-4ef0-aeb5-8b6e9e4571ad")
+		(property "Reference" "SW9"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "277385a9-4afb-4f71-bcb8-4bc248702a98")
+		)
+		(pin "1"
+			(uuid "d23ab14a-265e-4053-ae9a-03b0639dfb45")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 88.9 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55777055-3e93-477d-bbff-8db2abece12e")
+		(property "Reference" "SW26"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7ce69ae-c5f5-459b-a253-b029ad0822a8")
+		)
+		(pin "1"
+			(uuid "60438c3a-e755-4853-b4e2-aace82228b8a")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 88.9 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "593427df-fda8-4f34-ba6f-077ba51c3114")
+		(property "Reference" "D21"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 88.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 88.9 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44a7265d-7c12-45ac-8051-fe75bdd86a99")
+		)
+		(pin "2"
+			(uuid "42df80e1-d44a-4c3d-ab95-19c44731ed11")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack4")
+		(at 214.63 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d16715f-1115-491e-acaf-a775af360d82")
+		(property "Reference" "J1"
+			(at 212.09 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack4(PJ-320A)"
+			(at 212.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PJ-320A_Library:PJ-320A"
+			(at 214.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 214.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df9e9db5-007a-42c6-8670-102a86a94265")
+		)
+		(pin "4"
+			(uuid "d33d616b-48f3-44d6-82f2-9f942f20a40b")
+		)
+		(pin "3"
+			(uuid "2599f9e5-cb0d-44bf-a6b5-3c4210e15087")
+		)
+		(pin "2"
+			(uuid "93039c37-29ba-4442-a42b-ec2c90f180a2")
+		)
+		(instances
+			(project ""
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 109.22 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fce83dc-9c1d-4592-8a7d-45259ecce25d")
+		(property "Reference" "D22"
+			(at 109.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 109.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 109.22 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 109.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 109.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "615ef154-f28a-4bc9-bea2-695338fecbc9")
+		)
+		(pin "2"
+			(uuid "faa27a28-305c-46e2-9a78-f0b3e8b1f76e")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 66.04 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "670f0bc9-12c0-4e1a-91ad-6b023e45576a")
+		(property "Reference" "D8"
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 66.04 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35c6916f-5687-4035-bc28-4712b5a76b52")
+		)
+		(pin "2"
+			(uuid "11242ad4-1b87-4898-aa99-b334123012ec")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 66.04 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67a838ff-8532-4b3b-99c2-d140462f852c")
+		(property "Reference" "D14"
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 66.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 66.04 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05174106-a31f-4124-b966-f2be2ae85512")
+		)
+		(pin "2"
+			(uuid "8c386a9f-ea40-4c9e-bdcc-0819099a421c")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 129.54 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b676212-4934-4382-8d4b-08ccafd3e68e")
+		(property "Reference" "D11"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 129.54 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87e74d1c-043a-4b24-9ff5-bea500b988f6")
+		)
+		(pin "2"
+			(uuid "d6529883-4cb9-4174-bb0a-9155aeddfb6f")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 66.04 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f54b8e4-9c0d-4a50-a659-d46a5e9887c4")
+		(property "Reference" "SW25"
+			(at 66.04 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 66.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 66.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 66.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a0f7423-bb26-4b55-94f1-d5ac878942f8")
+		)
+		(pin "1"
+			(uuid "1b453969-0c89-4410-951e-95d5b262b6bf")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RP2040-zero:RP2040_Zero_Up_Mount")
+		(at 223.52 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fd57668-a18a-4406-b470-9e87b438fa92")
+		(property "Reference" "U1"
+			(at 223.52 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 223.52 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:RP2040_Zero_Up_Mount"
+			(at 223.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "71ca635c-9df3-4ce2-afd2-fd7a55b19933")
+		)
+		(pin "7"
+			(uuid "9d2fbbd9-af4b-488b-9299-496d4edfd3e4")
+		)
+		(pin "3"
+			(uuid "08a071f8-5007-411b-a84a-906de9a1a569")
+		)
+		(pin "3V3"
+			(uuid "198a47be-3834-4553-9bc5-04a73689b956")
+		)
+		(pin "5V"
+			(uuid "9c052ae4-9857-427f-9e29-45da51679ddd")
+		)
+		(pin "10"
+			(uuid "d5aaaf41-2839-4e3b-b811-eb41891070c0")
+		)
+		(pin "11"
+			(uuid "4982db6f-0706-4901-b090-664d62aa23c2")
+		)
+		(pin "9"
+			(uuid "cd61cb51-68cd-47f4-8a2b-2897d8112ce8")
+		)
+		(pin "0"
+			(uuid "a627c886-9fc6-48c3-a895-d91f69525fed")
+		)
+		(pin "13"
+			(uuid "5b1f7dc8-d673-4979-a2a2-556e30470861")
+		)
+		(pin "12"
+			(uuid "75670849-8f7b-4cf2-a0df-0c01d04aaa1d")
+		)
+		(pin "14"
+			(uuid "2ce3c7b0-f247-4d3f-aad4-31c95b4cdf86")
+		)
+		(pin "29"
+			(uuid "182eca7c-730e-46ab-a103-1ee431282a61")
+		)
+		(pin "4"
+			(uuid "08ed242e-f8b4-438f-866e-9cae717fb92d")
+		)
+		(pin "28"
+			(uuid "35dffef7-bc1d-4bee-bc86-963965029402")
+		)
+		(pin "5"
+			(uuid "0fce64c4-dd31-43c5-afdc-5ea87fe3dd48")
+		)
+		(pin "GNB"
+			(uuid "4636434f-499b-434f-9a8e-a9305195bbf4")
+		)
+		(pin "15"
+			(uuid "f43f1543-662f-4f59-b9dd-1f9eebf6991d")
+		)
+		(pin "26"
+			(uuid "3726fd41-7b5c-4398-8c1d-8bc0775c10b2")
+		)
+		(pin "1"
+			(uuid "473a5bc7-3ef5-4f69-8131-b2d6dbbfc646")
+		)
+		(pin "27"
+			(uuid "0b7c8c14-11a5-48cc-99dc-bb6d67ee3ba3")
+		)
+		(pin "6"
+			(uuid "2d80978a-0d64-4e77-bb81-d58614d1edd8")
+		)
+		(pin "2"
+			(uuid "522a5fde-f203-426c-9a34-3c3032000060")
+		)
+		(instances
+			(project ""
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 66.04 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70e223a6-f384-4125-84ea-05403e5af36a")
+		(property "Reference" "D2"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 66.04 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b126ec9-d6a4-41a6-ab09-f932b30db35c")
+		)
+		(pin "2"
+			(uuid "084c6f5a-43a8-4561-95b4-f7c8f6d96f52")
+		)
+		(instances
+			(project ""
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 129.54 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "781450c0-b554-4454-9494-b967932e4e1e")
+		(property "Reference" "D5"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 129.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 129.54 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ed693eb-4114-4b06-b331-82b5f04fc1e7")
+		)
+		(pin "2"
+			(uuid "0b3d3ab8-eafa-4435-a230-62bd6013b8b3")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 66.04 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "791b7b73-3fc5-44c5-94aa-74159edfea27")
+		(property "Reference" "SW7"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1181fb0f-8d3f-4c5c-b0cb-41dc8c3ee65c")
+		)
+		(pin "1"
+			(uuid "665c350d-d2d9-4b1f-8063-64bd10a8022b")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 129.54 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bc2e5de-2d7e-475f-b4a9-7143fa97030d")
+		(property "Reference" "D17"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 129.54 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3ba974f-5d1a-43e9-909f-bbb581fa93a8")
+		)
+		(pin "2"
+			(uuid "ec2e5cd3-38c3-4829-80d7-6a11d8f26b64")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 88.9 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8152cada-fc24-4f39-8fc3-4b7dadd515de")
+		(property "Reference" "D27"
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 88.9 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad229a8f-e23a-4ea3-a93e-bd56c91467f9")
+		)
+		(pin "2"
+			(uuid "11492453-5cf5-418c-980d-85ee5133eb7a")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 166.37 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "815e9063-c3be-4ed8-8265-0d79e167c612")
+		(property "Reference" "D13"
+			(at 166.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 166.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 166.37 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8667eabc-182c-47e0-b3ca-f4a8d8aceab3")
+		)
+		(pin "2"
+			(uuid "bc4cb59b-1ab6-400c-8bd8-7102a1b7a9c5")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 66.04 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "891ad748-e561-404f-8074-74cd91915980")
+		(property "Reference" "D26"
+			(at 66.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 66.04 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8539fbc1-0df4-448d-8d0a-7365d4201e6c")
+		)
+		(pin "2"
+			(uuid "ca6ebb47-a71a-4ba0-9ec2-5e8dea8d6652")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89eef379-0322-470b-b24b-5610531bbdd3")
+		(property "Reference" "SW4"
+			(at 129.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3bb9c0f5-6888-402c-8667-d94a5363ddcf")
+		)
+		(pin "1"
+			(uuid "030f749b-f739-4b2b-8cc0-d24f93c399b7")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 88.9 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93fee234-d928-47e2-81dc-9aae0ad07d0c")
+		(property "Reference" "D9"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 88.9 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbb4cbbb-2a52-499e-bc2f-a7d9c471f66a")
+		)
+		(pin "2"
+			(uuid "129ea3b3-e1d1-4de5-b108-81b1cc53f5ca")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 88.9 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fb4b529-02a4-4ce4-937a-bba3eef0e12f")
+		(property "Reference" "SW8"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d47b76e-ea7b-4028-acfc-8a792e715884")
+		)
+		(pin "1"
+			(uuid "e576519c-422f-476a-8c61-74a7d412626a")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 147.32 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fc71780-7687-49ad-b65d-d9d9c6520ec9")
+		(property "Reference" "D24"
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 147.32 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 147.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 147.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2b5b2ab-f262-44d1-943b-a87d52bea7ea")
+		)
+		(pin "2"
+			(uuid "969c769e-9468-4c66-aa91-a579cc0fb248")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 88.9 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fdd9497-1b19-4ef1-ab45-dc37b9a616c9")
+		(property "Reference" "D15"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 88.9 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0743d54b-f9c1-4c0b-b256-fca11696a724")
+		)
+		(pin "2"
+			(uuid "84a3592b-7ba7-429b-b802-b6b6efb0698e")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 166.37 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a26195aa-c677-498e-a242-762f78b8b9c6")
+		(property "Reference" "SW6"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f7e0278-2180-4804-bc50-ea00dca58fc9")
+		)
+		(pin "1"
+			(uuid "9a7007f1-78bf-46d0-9cc9-327860113313")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a60afe65-4d1e-411f-9238-4c70ce401ceb")
+		(property "Reference" "R2"
+			(at 233.68 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 233.68 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 233.68 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f55682e6-b5bf-4ddd-8648-fd0fada2af75")
+		)
+		(pin "2"
+			(uuid "7d892ba0-b14a-483d-a47c-e52727d45325")
+		)
+		(instances
+			(project "keykeyv2.1"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae98e28f-78f1-4145-9d52-3541864c2728")
+		(property "Reference" "SW15"
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e171411-f205-48b8-b7f3-ef9f201670a9")
+		)
+		(pin "1"
+			(uuid "28a36b12-4493-4106-afa0-873a5fedc0c9")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 166.37 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0db7876-3d66-4282-a520-b0dd884207d5")
+		(property "Reference" "D31"
+			(at 166.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 166.37 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 166.37 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 166.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 166.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0841fb02-02d0-4e66-8e8a-fdd09cb4121c")
+		)
+		(pin "2"
+			(uuid "eeff9f85-cb50-4455-bf91-a5a94913d00a")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1b1cffd-7d7d-4eb0-b374-280e594a3e0e")
+		(property "Reference" "SW27"
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e843b423-152c-424a-b31e-046cf2d12ee7")
+		)
+		(pin "1"
+			(uuid "0f9038a7-c035-4b43-b90d-895a7a70dc6f")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 166.37 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5cc1e44-f432-45a0-86bf-5fb1618e8f0e")
+		(property "Reference" "SW30"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 166.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 166.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 166.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cafe924d-8c23-42f1-8f91-84737a9680db")
+		)
+		(pin "1"
+			(uuid "c69437b6-ed6b-4298-955d-4f7e0f2afd3d")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 147.32 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8506469-c52b-4042-9fcd-9e915b00fe5a")
+		(property "Reference" "SW29"
+			(at 147.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 147.32 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 147.32 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 147.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e395f8a-bdcd-41a6-9c66-1839a64b0195")
+		)
+		(pin "1"
+			(uuid "2666d80e-3bc4-4471-ba29-6db76426c3e3")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c88cac7e-77a6-4636-8646-349055e70bcf")
+		(property "Reference" "SW16"
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "baab9ef0-bf06-468d-b578-14ca4c0b64f6")
+		)
+		(pin "1"
+			(uuid "e84d11db-8ffb-4c91-9f6a-86c091a25185")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 166.37 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9918387-e7e6-4c70-b178-65f541ea2177")
+		(property "Reference" "SW24"
+			(at 166.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 166.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53bc004e-bfb5-4787-a4fd-5e7b77c6368f")
+		)
+		(pin "1"
+			(uuid "6015e04b-bf47-4509-90f8-241957c5caec")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 166.37 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbff802a-48e9-4e74-bf85-0d02ea80c891")
+		(property "Reference" "D7"
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 166.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 166.37 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67e27d3c-3c70-4104-8b52-778e4b4247db")
+		)
+		(pin "2"
+			(uuid "404dd65a-a7a6-4c67-945d-d7c918fdcb15")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 66.04 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdb6f1ff-57f1-4c77-84b9-7aa84fae9ddd")
+		(property "Reference" "SW13"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 66.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72c8e467-92f3-41f2-9273-c023aefe0459")
+		)
+		(pin "1"
+			(uuid "457f7956-4c75-41b1-a3ef-913727902b02")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 88.9 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf992b5e-2d36-4c75-a3d2-b8bb9218b7df")
+		(property "Reference" "D3"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 88.9 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "114c984e-ac23-4c11-998f-4667f3340c8a")
+		)
+		(pin "2"
+			(uuid "35369f58-aa78-4599-b876-9fe206a14550")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 147.32 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2eac359-14b5-483a-a3cb-b4a7432b9620")
+		(property "Reference" "SW23"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 147.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 147.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37bb83ce-744f-45cf-a673-c07bba0fb6cd")
+		)
+		(pin "1"
+			(uuid "88ce6f9b-358f-4f60-8e28-ce63ea7b518a")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 129.54 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d72a1dd8-f4a9-4e0b-a98f-1881c00b2c37")
+		(property "Reference" "D29"
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 129.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 129.54 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 129.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 129.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fd439e5-afb0-4aae-9659-c5fdc5567e89")
+		)
+		(pin "2"
+			(uuid "60cc503a-a773-42a5-adb3-227405f1f5fe")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 88.9 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfd29dbe-8cc2-41e6-a832-466be2539ff1")
+		(property "Reference" "SW14"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "647a3bed-a2ab-40f7-b96e-47c23501f679")
+		)
+		(pin "1"
+			(uuid "6ff4dc2d-408a-4fc7-8aa4-716202b26318")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 129.54 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e23bf81f-39c9-424f-8917-c0b42f6cf766")
+		(property "Reference" "D23"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 129.54 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96e5bc85-9e55-46a4-85eb-a841cea730a7")
+		)
+		(pin "2"
+			(uuid "fd0cacb8-75c2-43a5-964a-d9c5c3815699")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 109.22 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5c0ac99-a35c-43b2-86b3-9ef6492ab8e0")
+		(property "Reference" "D28"
+			(at 109.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 109.22 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 109.22 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc6c8300-646d-48eb-acf8-74fa500a07dd")
+		)
+		(pin "2"
+			(uuid "97bf5d66-4076-4bec-acf8-281e32110ec6")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 147.32 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea56c6a4-f188-49da-b1cd-aec9efb129a3")
+		(property "Reference" "D18"
+			(at 147.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 147.32 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e2f32e0-da1e-4db0-9678-f7cfe2529fa2")
+		)
+		(pin "2"
+			(uuid "411f4c03-131d-48c2-a184-e286b6718550")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 147.32 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd24d1a-44bd-4f26-8fd0-e7ce4d3bc599")
+		(property "Reference" "D12"
+			(at 147.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 147.32 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76047959-73eb-46f9-ab53-9e0abf668829")
+		)
+		(pin "2"
+			(uuid "e1b7c7aa-9291-4b07-a5aa-a420613c2190")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 66.04 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f163b6d7-b554-40db-8254-43a2c593a164")
+		(property "Reference" "D20"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 66.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 66.04 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4e0c041-6171-4168-80a0-012f0c38e9bd")
+		)
+		(pin "2"
+			(uuid "05f59271-5cd3-495a-8a1f-629ac6bd7648")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3512caa-d60a-4df6-bfcc-7f68096a4b19")
+		(property "Reference" "SW21"
+			(at 109.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7901906b-4c2e-4521-883d-0352705c7dee")
+		)
+		(pin "1"
+			(uuid "904358b5-3892-41e9-b210-03832c7ad2cd")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5540d0f-ec0c-4e36-b0a4-1f219e656a9f")
+		(property "Reference" "SW10"
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 129.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ae45c6d-067d-4a97-9799-0e8345d59290")
+		)
+		(pin "1"
+			(uuid "94dadfeb-6e16-46e0-ae80-f1098a264177")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 147.32 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8ec091f-7db7-4ed1-869b-7fc4ffa7d5d4")
+		(property "Reference" "SW17"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "733ceada-9f6c-4b83-81ca-7e31042ac9cd")
+		)
+		(pin "1"
+			(uuid "cdc19d82-fb67-4a42-a2f1-7ac240f99f7c")
+		)
+		(instances
+			(project "키보드V2"
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcc3bb04-3538-42b4-89c7-2fc7e286e1de")
+		(property "Reference" "R1"
+			(at 259.08 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 259.08 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 259.08 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03a16ec4-5697-4a9c-bbb3-deec1a640d4d")
+		)
+		(pin "2"
+			(uuid "e6b854b7-4658-4581-ac37-935257a68a5f")
+		)
+		(instances
+			(project ""
+				(path "/b419facb-c9cc-4812-898e-b74def812f3d"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
