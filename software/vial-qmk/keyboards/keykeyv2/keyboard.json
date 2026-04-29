@@ -26,9 +26,15 @@
             "driver": "vendor",
             "pin": "GP0"
         },
+        "matrix_pins": {
+            "right": {
+                "cols": ["GP11","GP10","GP9","GP8","GP7","GP6"],
+                "rows": ["GP1","GP2","GP3","GP4","GP5"]
+            }
+        },
         "transport": {
             "sync": {
-                "matrix_state": true
+                "matrix_state": false
             }
         }
     },
