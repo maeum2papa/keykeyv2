@@ -4,11 +4,17 @@
 // 하드웨어 핀 배선 불필요 (GP29 미사용)
 #define MASTER_LEFT
 
-// Vial 필수 설정
-#define VIAL_KEYBOARD_UID {0x81, 0x45, 0x4D, 0x59, 0x89, 0xA9, 0xB7, 0x87}
-// 언락 콤보: ESC(row0,col0) + GRV(row5,col5) 동시에 눌러야 Vial 잠금 해제
-#define VIAL_UNLOCK_COMBO_ROWS {0, 5}
-#define VIAL_UNLOCK_COMBO_COLS {0, 5}
+// ── 대안: 특정 핀에 저항으로 핸드니스 감지 ──────────────────────────────
+// 왼쪽 보드: 해당 핀에 풀업 저항 달기 (핀이 HIGH → 왼쪽)
+// 오른쪽 보드: 해당 핀을 GND에 연결 (핀이 LOW  → 오른쪽)
+// 사용 방법: MASTER_LEFT 주석 처리 후 아래 두 줄 활성화
+//
+// #define SPLIT_HAND_PIN GP29
+// #define SPLIT_USB_DETECT
+//
+// (SPLIT_USB_DETECT 없이 SPLIT_HAND_PIN만 써도 되지만,
+//  TRRS로 5V 공유 시 양쪽이 마스터로 오인할 수 있어 함께 쓰는 게 안전)
+// ─────────────────────────────────────────────────────────────────────────
 // 통신이 불안정할 때 슬레이브가 멈춰있지 않게 리셋/재시도
 #define SPLIT_WATCHDOG_ENABLE
 
@@ -37,3 +43,12 @@
 
 // 안정성 우선으로 속도는 중간부터 시작(필요하면 올려도 됨)
 #define SERIAL_USART_SPEED 57600
+
+// ── Vial 필수 설정 ──────────────────────────────────────────────────────────
+// python3 util/vial_generate_keyboard_uid.py 로 생성된 고유 ID
+#define VIAL_KEYBOARD_UID {0x04, 0x68, 0x66, 0x41, 0x49, 0xED, 0xC3, 0x78}
+
+// Vial 잠금 해제 콤보: 좌측 Ctrl(row=4,col=0) + 우측 Backspace(row=9,col=5)
+#define VIAL_UNLOCK_COMBO_ROWS {4, 9}
+#define VIAL_UNLOCK_COMBO_COLS {0, 5}
+// ─────────────────────────────────────────────────────────────────────────────
